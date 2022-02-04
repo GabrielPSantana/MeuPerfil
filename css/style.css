@@ -112,4 +112,42 @@ footer{
 
 
 
+@media (max-width: 1324px) {
+    .sobre > h3{
+        text-align: left;
+        margin-bottom:-30px;
 
+    }
+
+    .imagem{
+        display: none;
+
+    }
+
+    .texto{
+        padding-bottom:20px;
+    }
+
+    .texto h4{
+        padding-right:50px ;
+        max-width:100%;
+        text-align: center;
+    }
+
+    .texto p{
+        padding-right:50px ;
+        max-width:100%;
+    }
+
+ }
+
+ @media (max-width: 980px) {
+   
+        .section h2{
+            text-align:center;
+        }
+           
+        .container-header a{
+            margin-top:13px;
+        }
+ }
