@@ -13,6 +13,7 @@ a{
 }
 
 .container-header{
+    background-attachment: fixed;
     background-image: url(../img/painel.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -154,3 +155,11 @@ footer{
             margin-top:13px;
         }
  }
+ @media (max-width: 580px) {
+   
+    .texto p{
+
+        text-align: center;
+    
+    }
+}
